@@ -1,0 +1,143 @@
+body {
+font-family: 'Tahoma';
+}
+.center-gold-mobile {
+    display: none;
+}
+.gold-mobile {
+    display: none;
+}
+.header-main {
+    background-image: url("../images/main-background.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-logo {
+    padding: 20px 0 20px;
+}
+.content-header {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px 0 110px;
+    width: 100%;
+}
+#head-mobile {
+    display: none;
+}
+#head-desktop {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.gold {
+    display: flex;
+    flex-flow: column;
+}
+.golden-header {
+    font-size: 50px;
+    color: #be9637;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px black;
+    text-align: right;
+    padding: 15px 0;
+}
+.golden-subheader {
+    font-size: 35px;
+    color: #be9637;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px black;
+    text-align: right;
+    padding: 0 0 15px;
+}
+.registration-form {
+    width: 100%;
+    max-width: 430px;
+    margin-top: -200px;
+    position: relative;
+    padding-right: 40px;
+    top: 10px;
+    left: 21px;
+}
+.head-q8 {
+    background: white;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    padding: 40px 40px 20px;
+    position: relative;
+    z-index: 3;
+    border: none;
+    transform: translateY(23px);
+    margin: 0 auto;
+}
+
+.gold-header {
+    font-size: 40px;
+    color: #be9637;
+    font-weight: bold;
+    padding: 60px 10px 20px;
+}
+.subheader {
+    font-size: 26px;
+    padding: 30px 15px 0;
+    text-align: right;
+    font-weight: bold;
+}
+.text {
+    font-size: 26px;
+    padding: 30px 15px 0;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.schedule {
+    padding: 30px 10px;
+}
+.button-txt {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    width: 280px;
+    background: linear-gradient(to bottom, rgba(177,136,65,1) 1%,rgba(177,136,65,1) 1%,rgba(216,184,111,1) 100%);
+    margin: 30px 10px;
+    padding: 5px;
+   }
+.button-txt:hover {
+    background: linear-gradient(to bottom, rgba(216,184,111,1) 0%,rgba(177,136,65,1) 99%,rgba(177,136,65,1) 99%);
+}
+.center-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bold-text {
+    font-size: 26px;
+    padding: 30px 15px 0;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+.center-footer {
+    display: flex;
+    justify-content: center;
+    background: #002c4f;
+}
+.footer-logo {
+    padding: 5px 0;
+}
+.iframe-section .tradingview-widget-container {
+    padding: 30px;
+    min-width: 320px;
+    scroll-behavior: auto;
+    pointer-events: none;
+}
+
+
